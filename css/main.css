@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-container {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #18191F;
+    margin-right: 32px;
+}
+
+.nav-link:last-child{
+    margin-right: 0;
+}
+
+.nav {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.appstore {
+    margin-left: auto;
+    display: flex;
+}
+
+.appstore a {
+    margin-left: 12px;
+}
+
+.appstore a:first-child{
+    margin-left: 0;
+}
+
+.nav-link:hover {
+    color: #8C30F5;
+}
+
+.logo {
+    margin-right: 40px;
+}
+
+img {
+    display: block;
+}
+
+.header {
+    display: flex;
+    height: 73px;
+    align-items: center;
+    box-shadow: 0px 1px 0px #E5E9F2;
+    border-bottom: 1px solid #E5E9F2;
+}
+
+.main {
+
+}
+.main-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 197px 0;
+}
+.main-content{
+    color: #18191F;
+    width: 540px;
+}
+
+.main-img {
+
+}
+
+.main-content h1 {
+    font-weight: 800;
+    font-size: 82px;
+    line-height: 1.36;
+    color: #18191F;
+    margin-bottom: 16px;
+}
+
+.main-content p {
+    font-size: 18px;
+    line-height: 1.78;
+    margin-bottom: 15px;
+}
+
+.main-content a{
+    display: inline-block;
+    height: 62px;
+    background-color: #8C30F5;
+    border-radius: 8px;
+    padding: 0 35px;
+    justify-content: center;
+    font-weight: bold;
+    line-height: 62px;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    background: #18191F;
+    height: 66px;
+    color: #D9DBE1;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright {
+    font-size: 14px;
+}
+
+.footer-socials {
+    display: flex;
+}
+
+.footer-socials a:first-child {
+    margin-left: 0;
+}
+
+.footer-socials a {
+    margin-left: 16px;
+}
